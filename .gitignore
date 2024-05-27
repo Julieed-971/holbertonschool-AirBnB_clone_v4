@@ -1,2 +1,1 @@
-*.pyc*
-web_dynamic/__pycache__
+__pycache__
