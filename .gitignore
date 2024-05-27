@@ -1,1 +1,2 @@
-*pyc
+*.pyc*
+web_dynamic/__pycache__/
