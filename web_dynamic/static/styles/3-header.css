@@ -12,7 +12,7 @@ header .logo {
     width: 50%;
 }
 
-header #api_status {
+#api_status {
 /* Align to the right */
     position: absolute;
 /* Center vertically */
@@ -28,6 +28,6 @@ header #api_status {
     background-color: #CCCCCC;
 }
 
-header #api_status .available {
+#api_status.available {
     background-color: #ff545f;
 }
