@@ -1,4 +1,5 @@
 header {
+    position: relative;
     background: white;
     height: 70px;
     width: 100%;
@@ -8,4 +9,25 @@ header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+    width: 50%;
+}
+
+header #api_status {
+/* Align to the right */
+    position: absolute;
+/* Center vertically */
+    right: 30px;
+    top: 15px;
+/* Circle of 40px diameter */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+/* At 30px of the right border */
+    border-right: 30px;
+/* Background color #cccccc */
+    background-color: #CCCCCC;
+}
+
+header #api_status .available {
+    background-color: #ff545f;
 }
